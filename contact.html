@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liên hệ - Ẩm Thực Tây Bắc</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav-container">
+        <h1 class="logo">Ẩm Thực Tây Bắc</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li><a href="products.html">Đặc sản</a></li>
+            <li><a href="contact.html" class="active">Liên hệ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container page-content">
+      <h2>Liên Hệ & Đặt Món Đặc Sản</h2>
+      <p>
+        Quý khách có nhu cầu đặt mua đặc sản hoặc đóng góp ý kiến vui lòng điền
+        thông tin bên dưới.
+      </p>
+
+      <form class="contact-form" action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Họ và tên:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Nhập họ tên của bạn"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email / Số điện thoại:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            required
+            placeholder="Nhập email hoặc số điện thoại"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Nội dung liên hệ / Đặt món:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+            placeholder="Nhập tên món ăn và số lượng cần đặt..."
+          ></textarea>
+        </div>
+        <button type="submit" class="btn">Gửi thông tin</button>
+      </form>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Ẩm Thực Tây Bắc. Tất cả các quyền được bảo lưu.</p>
+      </div>
+    </footer>
+  </body>
+</html>
